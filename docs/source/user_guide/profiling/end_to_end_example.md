@@ -56,6 +56,7 @@ uv pip install -e ./aiu-fms-testing-utils
 
 # Cache HuggingFace artifacts and download the Granite checkpoint.
 export HF_HOME=/tmp/models/hf_cache
+hf download ibm-granite/granite-3.3-8b-instruct --local-dir /tmp/models/granite-3.3-8b-instruct
 
 #Install huggingface hub
 pip install -U huggingface_hub
@@ -169,6 +170,9 @@ with profile(
 #    them ≈ device-side work.
 cpu_per_run_ms = sum(e.self_cpu_time_total for e in prof.events()) / 1000 / N_RUNS
 
+print("=" * 42)
+print("Profiling Granite Running on Spyre".center(42))
+print("=" * 42)
 print("=" * 42)
 print("Profiling Granite Running on Spyre".center(42))
 print("=" * 42)
