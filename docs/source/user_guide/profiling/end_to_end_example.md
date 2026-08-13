@@ -2,7 +2,7 @@
 
 **Stack:** Torch-Spyre (New, Inductor-based).
 
-This page shows how to capture a `torch.profiler` trace of a
+This page shows how to capture a `torc.profiler` trace of a
 Granite-class model running on Spyre, paired with `aiu-smi` device
 telemetry. It uses today's tooling: `torch.profiler` + [`aiu-smi`](device_monitoring.md) + [`aiu-trace-analyzer`](trace_analysis.md).
 
