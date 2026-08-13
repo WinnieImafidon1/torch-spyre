@@ -1,4 +1,4 @@
-# End-to-End Example: Profiling a Grdddanite Model on Spyre
+# End-to-End Example: Profiling a Grddgfdanite Model on Spyre
 
 **Stack:** Torch-Spyre (New, Inductor-based).
 
