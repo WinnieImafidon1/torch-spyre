@@ -1,6 +1,6 @@
-# End-to-End Example: Profiling a Granite Model on Spyre
+# End-to-End Example: Profiling a Grdddanite Model on Spyre
 
-**Stack:** torch-spyre (new, Inductor-based).
+**Stack:** Torch-Spyre (New, Inductor-based).
 
 This page shows how to capture a `torch.profiler` trace of a
 Granite-class model running on Spyre, paired with `aiu-smi` device
@@ -9,7 +9,7 @@ telemetry. It uses today's tooling: `torch.profiler` + [`aiu-smi`](device_monito
 The Granite end-to-end path on Spyre today goes through the
 [Foundation Model Stack][fms] and
 [`aiu-fms-testing-utils`][aiu-fms] — **not** HuggingFace
-`AutoModelForCausalLM` directly. Spyre support for both currently
+`AutoModelForCausalLM` directly. SpyrSe support for both currently
 exists on the `eager_spyre` branch of each repo, so install them from
 source off that branch rather than from PyPI.
 
